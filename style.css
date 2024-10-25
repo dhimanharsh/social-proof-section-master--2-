@@ -1,0 +1,581 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+}
+
+main {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content-one {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-two {
+    height: 50%;
+    width: 80%;
+}
+
+.heading {
+    width: 40%;
+    height: 80%;
+}
+
+.ratings {
+    width: 50%;
+    height: 60%;
+    position: relative;
+    top: 5%;
+}
+
+.content-one h1 {
+    color: hsl(300, 43%, 22%);
+    width: 70%;
+    font-size: 3em;
+}
+
+.content-one p {
+    padding-top: 3em;
+    color: hsl(303, 10%, 53%);
+    width: 85%;
+    height: 6em;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.ratings section {
+    height: 2.8em;
+    border-radius: 5px;
+    background: hsl(300, 24%, 96%);
+}
+
+#one {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#one img {
+    height: 1.1em;
+}
+
+#one span {
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+}
+
+#two {
+    width: 70%;
+    position: relative;
+    left: 12%;
+    top: 15%;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#two img {
+    height: 1.1em;
+}
+
+#two span {
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+}
+
+#three {
+    width: 70%;
+    position: relative;
+    left: 28%;
+    top: 30%;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#three img {
+    height: 1.1em;
+}
+
+#three span {
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+}
+
+/*  */
+.content-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.robert {
+    height: 60%;
+    width: 30%;
+    position: relative;
+    top: 5%;
+    border-radius: 5px;
+    padding: 1.7em;
+    box-sizing: border-box;
+    background: hsl(300, 43%, 22%);
+}
+
+.anne {
+    height: 60%;
+    width: 30%;
+    position: relative;
+    top: 10%;
+    border-radius: 5px;
+    padding: 1.7em;
+    box-sizing: border-box;
+    background: hsl(300, 43%, 22%);
+}
+
+.colton {
+    height: 60%;
+    width: 30%;
+    border-radius: 5px;
+    padding: 1.7em;
+    box-sizing: border-box;
+    background: hsl(300, 43%, 22%);
+}
+
+.colton img {
+    border-radius: 50%;
+    height: 3em;
+}
+
+.robert img {
+    border-radius: 50%;
+    height: 3em;
+}
+
+.anne img {
+    border-radius: 50%;
+    height: 3em;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 50%;
+}
+
+#name span {
+    margin-top: 0px;
+    color: hsl(333, 80%, 67%);
+    font-size: 1.2em;
+}
+
+#name h5 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+}
+
+article {
+    color: white;
+    font-weight: 500;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+@media(max-width:700px) {
+
+
+    .content-one {
+        height: 60%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .heading h1 {
+        font-size: 3em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ratings {
+        width: 100%;
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+
+    .ratings #one {
+        width: 100%;
+        position: static;
+       
+    }
+    .ratings #two {
+        width: 100%;
+        position: static;
+    }
+
+    .ratings #three {
+        width: 100%;
+        position: static;
+    }
+
+    .content-two{
+        position: relative;
+        top: 10%;
+        height: 80rem;
+        width: 90%;
+        flex-direction: column;
+    }
+    .colton {
+        height: 80%;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1.7em;
+        box-sizing: border-box;
+        background: hsl(300, 43%, 22%);
+    }
+    .robert{
+        width: 100%;
+    }
+    .anne{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:701px) and (max-width:900px) {
+    
+main{
+    height: 100rem;
+}
+
+    .content-one {
+        height: 40%;
+        width: 80%;
+        display: flex;
+     flex-direction: column;
+    }
+
+    .heading {
+        width: 70%;
+        height: 18rem;
+        padding-bottom: 3em;
+
+    }
+
+    .heading h1 {
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .heading p {
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+        padding-top: 2em;
+        
+    }
+
+    .ratings {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        top: 0%;
+    }
+    .ratings section{
+     height: 3.5rem;   
+    }
+
+    .ratings #one {
+        width: 90%;
+      position: static;
+       
+    }
+    .ratings #two {
+        width: 90%;
+        position: static;
+
+    }
+
+    .ratings #three {
+        width: 90%;
+        position: static;
+
+    }
+
+    .content-two{
+        position: relative;
+        top: 10%;
+        height: 60rem;
+        width: 90%;
+        flex-direction: column;
+    }
+    .colton {
+        height: 90%;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1.7em;
+        box-sizing: border-box;
+        background: hsl(300, 43%, 22%);
+    }
+    .robert{
+        width: 100%;
+    }
+    .anne{
+        width: 100%;
+    }
+    article{
+        font-size: 2em;
+    }
+    
+}
+
+@media (min-width:901px) and (max-width:1200px) {
+    
+    main{
+        height: 100rem;
+    }
+    
+        .content-one {
+            height: 40%;
+            width: 80%;
+            display: flex;
+       
+        }
+    
+        .heading {
+            width: 70%;
+            height: 18rem;
+            padding-bottom: 3em;
+    
+        }
+    
+        .heading h1 {
+            font-size: 4em;
+            width: 100%;
+            text-align: center;
+    
+        }
+    
+        .heading p {
+            font-size: 1.2em;
+            width: 100%;
+            text-align: center;
+            padding-top: 2em;
+            
+        }
+    
+        .ratings {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 10%;
+        }
+        .ratings section{
+         height: 2.9rem; 
+         width: 100%;  
+        }
+    
+        .ratings #one {
+            width: 80%;
+           
+        }
+        .ratings #two {
+            width: 80%;
+            position: relative;
+            left: 5%;
+    
+        }
+    
+        .ratings #three {
+            width: 80%;
+            position: relative;
+            left: 15%;
+
+    
+        }
+    
+        .content-two{
+            position: relative;
+            top: 10%;
+            height: 60rem;
+            width: 100%;
+            justify-content: space-evenly;
+            gap: 1em;
+         
+        }
+        .colton {
+            height: 35%;
+            width: 70%;
+            border-radius: 5px;
+            padding: 1.7em;
+            box-sizing: border-box;
+            background: hsl(300, 43%, 22%);
+        }
+        .robert{
+            height: 35%;
+            width: 70%;
+        }
+        .anne{
+            height: 35%;
+            width: 70%;
+        }
+        article{
+            font-size: 1.4em;
+        }
+        
+    }
+
+
+    @media (min-width:1201px) and (max-width:1300px) {
+    
+        main{
+            height: 100rem;
+        }
+        
+            .content-one {
+                height: 40%;
+                width: 80%;
+                display: flex;
+           
+            }
+        
+            .heading {
+                width: 70%;
+                height: 18rem;
+                padding-bottom: 3em;
+            }
+        
+            .heading h1 {
+                font-size: 5em;
+                width: 100%;
+                text-align: center;
+        
+            }
+        
+            .heading p {
+                font-size: 1.5em;
+                width: 100%;
+                text-align: center;
+                padding-top: 2em;
+                
+            }
+        
+            .ratings {
+                width: 100%;
+                height: 40%;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: 10%;
+                left: 5%;
+
+            }
+            .ratings section{
+             height: 2.9rem; 
+             width: 100%;  
+            }
+        
+            .ratings #one {
+                width: 80%;
+               
+            }
+            .ratings #two {
+                width: 80%;
+                position: relative;
+                left: 5%;
+        
+            }
+        
+            .ratings #three {
+                width: 80%;
+                position: relative;
+                left: 15%;
+    
+        
+            }
+        
+            .content-two{
+                position: relative;
+                top: 10%;
+                height: 60rem;
+                width: 100%;
+                justify-content: space-evenly;
+                gap: 1em;
+             
+            }
+            .colton {
+                height: 35%;
+                width: 70%;
+                border-radius: 5px;
+                padding: 1.7em;
+                box-sizing: border-box;
+                background: hsl(300, 43%, 22%);
+            }
+            .robert{
+                height: 35%;
+                width: 70%;
+            }
+            .anne{
+                height: 35%;
+                width: 70%;
+            }
+            article{
+                font-size: 1.4em;
+            }
+            
+        }
